@@ -561,8 +561,8 @@ export default Logo;
 
 #### Logo and Images
 
-- logo built in Figma
-- [Cool Images](https://undraw.co/)
+- logo built in Figma.  Very user friendly
+- [Cool Images](https://undraw.co/) You search them and control the main color.  See the colors in the primary CSS.  Replace the color code with the colors on your project. SVG is clear.  PNG adds white background.
 
 #### Error Page
 
