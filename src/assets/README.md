@@ -98,6 +98,7 @@ npm install @tanstack/react-query@4.29.5 @tanstack/react-query-devtools@4.29.6 a
 ```sh
 npm i react-router-dom@6.10.0
 ```
+this version uses more pages, but less need for the global state
 
 App.jsx
 
@@ -230,6 +231,7 @@ export default Register;
 ```
 
 Login.jsx
+NOTE:  If you wanted to go to an external link, you would use a traditional <a href=> tag and path
 
 ```jsx
 import { Link } from 'react-router-dom';
@@ -253,6 +255,7 @@ export default Login;
 - for time being only home layout will be visible
 
 App.jsx
+This makes the parent the homepage. Remove the forward slash since the home is the parent
 
 ```jsx
 const router = createBrowserRouter([
@@ -278,6 +281,7 @@ const router = createBrowserRouter([
 ```
 
 HomeLayout.jsx
+Now grab the outlet component.
 
 ```jsx
 import { Outlet } from 'react-router-dom';
@@ -297,6 +301,7 @@ export default HomeLayout;
 #### Index (Home) Page
 
 App.jsx
+This is to display something on the home page. 
 
 ```jsx
 {
@@ -363,7 +368,7 @@ npm install styled-components@5.3.10
 import styled from 'styled-components';
 
 const El = styled.el`
-  // styles go here
+  // styles go here like you normally would if you're typing in CSS file.  
 `;
 ```
 
